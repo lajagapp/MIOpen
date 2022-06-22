@@ -1,4 +1,3 @@
-#include <miopen/config.h> // WORKAROUND_BOOST_ISSUE_392
 #include <miopen/rank.hpp>
 #include <miopen/sequences.hpp>
 

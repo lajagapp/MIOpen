@@ -52,7 +52,7 @@
 
 #if MIOPEN_USE_ROCBLAS
 #include <miopen/manage_ptr.hpp>
-#if MIOPEN_ROCBLAS_VERSION_FLAT < 2045000
+#if HIP_PACKAGE_VERSION_FLAT <= 5001999999ULL
 #include <rocblas.h>
 #else
 #include <rocblas/rocblas.h>
